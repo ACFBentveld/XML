@@ -28,7 +28,7 @@ class ExportFromViewTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-        View::addLocation(__DIR__ . '/views');
+        View::addLocation(__DIR__.'/views');
     }
 
     /**
